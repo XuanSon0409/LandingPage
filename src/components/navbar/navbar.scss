@@ -1,0 +1,37 @@
+@import "../../styles/mixins.scss";
+
+.navbar {
+    background-color: var(--black);
+    padding-block: 0.6rem;
+    position: relative;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo img {
+        width: 5rem;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        a {
+            color: var(--current);
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: var(--spanish-gray);
+            }
+        }
+    }
+
+    &__btns {
+        display: flex;
+    }
+}
