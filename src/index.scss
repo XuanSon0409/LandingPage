@@ -1,4 +1,4 @@
-@import "./styles/mixins.scss";
+@import "./styles/mixins.scss" ;
 
 :root {
   --spanish-gray: #969696;
@@ -26,8 +26,9 @@ html {
 
 body {
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
   line-height: 1.5;
+  font-family: "Lato", sans-serif;
   color: var(--spanish-gray);
   background-color: var(--eerie-black);
 }
@@ -73,8 +74,8 @@ h6 {
   display: inline-block;
 
   &:hover {
+    border-color: #3fe8ab;
     background: transparent;
     color: var(--cultured) !important;
-    border-color: #3fe8ab;
   }
 }
