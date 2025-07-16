@@ -1,5 +1,5 @@
 import "./navbar.scss";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
