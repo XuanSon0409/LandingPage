@@ -1,4 +1,4 @@
-import "./Navbar.scss";
+import "./navbar.scss";
 import Logo from "../../assets/logo.png";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
