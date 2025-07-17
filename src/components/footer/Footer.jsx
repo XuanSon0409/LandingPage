@@ -1,5 +1,5 @@
 import "./Footer.scss";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube, } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
