@@ -8,6 +8,10 @@
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         gap: 6rem 4rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
 
         @include respond(tab-port) {
             grid-template-columns: 1fr;
